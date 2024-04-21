@@ -4,12 +4,12 @@
 
 ### Create Docker image:
 ```
-docker build -t java-app .
+docker build -t metunic-priority-caching-java .
 ```
 
 ### Run Docker container:
 ```
-docker run --rm -i java-app < input000.txt
+docker run --rm -i metunic-priority-caching-java < input000.txt
 ```
 
 #### Input Format For Custom Testing
